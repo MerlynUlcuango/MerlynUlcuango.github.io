@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagina Web</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+
+<body>
+  <header>
+     <p class="centro"><img id="logo_espe" width="5%;" src="IMG/Logo_ESPE.png" alt="">
+        <h1>Universidad de las Fuerzas Armadas "ESPE"</h1>
+        <h2>Merlyn Pamela Ulcuango Andrango</h2>
+  </header>
+
+  <main>
+    <section>
+      <h2 class="seccion">SSL</h2>
+      <img src="IMG/ssl.png" alt="Imagen 1">
+      <p>Secure Sockets Layer (Capa de sockets seguros, en español). Es un protocolo criptográfico que proporciona comunicación segura a través de una red, generalmente internet. SSL garantiza que los datos transmitidos entre un servidor y un cliente (como un navegador web) estén encriptados y se mantengan confidenciales.</p>
+    </section>
+
+    <section>
+      <h2 class="seccion">Burp Suite</h2>
+      <img src="IMG/burp.png" alt="Imagen 2">
+      <p>Burp Suite es una herramienta de seguridad informática utilizada para realizar pruebas de seguridad en aplicaciones web. Es ampliamente utilizada por profesionales de la seguridad, pentesters y expertos en seguridad de aplicaciones para identificar vulnerabilidades y debilidades en los sistemas web. </p>
+    </section>
+
+    <section>
+      <h2 class="seccion">Dominio</h2>
+      <img src="IMG/dominio.png" alt="Imagen 3">
+      <p>Se refiere a una identificación única y legible por humanos que se utiliza para identificar y acceder a recursos en la web, como sitios web, servidores de correo electrónico y servicios en línea. Es una parte fundamental de las direcciones web y se utiliza para localizar y distinguir diferentes entidades en internet.</p>
+    </section>
+
+    <section>
+      <h2 class="seccion">Formulario de Registro de Dominio</h2>
+      <form class="formulario" id="formulario">
+        <p class="titulo">Datos del Dominio</p>
+        <i class="uil uil-globe world-icon"></i>
+        <label for="nombredominio">Nombre del Dominio:</label>
+        <input type="text" id="nombredominio" name="nombreDominio" required><br><br>
+        <i class="uil uil-desktop computer-icon"></i>
+        <label for="direccionip">Direccion Ip:</label>
+        <input type="text" id="direccionip" name="direccionip" required><br><br>
+        <i class="uil uil-desktop computer-icon"></i>
+        <label for="direccionurl">Direccion URl:</label>
+        <input type="text" id="direccionurl" name="direccionurl" required><br><br>
+
+        <p class="titulo">Datos del Administrador</p>
+        <i class="uil uil-user user-icon"></i>
+        <label for="nombreadmin">Nombre:</label>
+        <input type="text" id="nombreadmin" name="nombreadmin" required><br><br>
+        <i class="uil uil-flag flag-icon"></i>
+        <label for="paisadmin">País:</label>
+        <input type="text" id="paisadmin" name="paisadmin" required><br><br>
+        <i class="uil uil-phone phone-icon"></i>
+        <label for="telefonoadmin">Telefono:</label>
+        <input type="text" id="telefonoadmin" name="telefonoadmin" required><br><br>
+        <i class="uil uil-envelope envelope-icon"></i>
+        <label for="correoadmin">Correo:</label>
+        <input type="email" id="correoadmin" name="correoadmin" required><br><br>
+
+        <p class="titulo">Datos del Técnico</p>
+        <i class="uil uil-user user-icon"></i>
+        <label for="nombretec">Nombre:</label>
+        <input type="text" id="nombretec" name="nombretec" required><br><br>
+        <i class="uil uil-flag flag-icon"></i>
+        <label for="paistec">País:</label>
+        <input type="text" id="paistec" name="paistec" required><br><br>
+        <i class="uil uil-phone phone-icon"></i>
+        <label for="telefonotec">Telefono:</label>
+        <input type="text" id="telefonotec" name="telefonotec" required><br><br>
+        <i class="uil uil-envelope envelope-icon"></i>
+        <label for="correotec">Correo:</label>
+        <input type="email" id="correotec" name="correotec" required><br><br>
+
+        <p class="titulo">Datos del Servicio-Server</p>
+        <i class="uil uil-desktop computer-icon"></i>
+        <label for="server1">Nombre Server 1:</label>
+        <input type="text" id="server1" name="server1" required><br><br>
+        <i class="uil uil-desktop computer-icon"></i>
+        <label for="server2">Nombre Server 2:</label>
+        <input type="text" id="server2" name="server2" required><br><br>
+
+        <p class="titulo">Registros</p>
+        <i class="uil uil-clipboard register-ico"></i>
+        <label for="tipoa">Tipo A:</label>
+        <input type="text" id="tipoa" name="tipoa" ><br><br>
+        <i class="uil uil-clipboard register-ico"></i>
+        <label for="tipomx">Tipo MX:</label>
+        <input type="text" id="tipomx" name="tipomx" ><br><br>
+        <i class="uil uil-clipboard register-ico"></i>
+        <label for="tipoptr">Tipo PTR:</label>
+        <input type="text" id="tipoptr" name="tipoptr" ><br><br>
+        <i class="uil uil-clipboard register-ico"></i>
+        <label for="tipospf">Tipo SPF:</label>
+        <input type="text" id="tipospf" name="tipospf" ><br><br>
+        <i class="uil uil-clipboard register-ico"></i>
+        <label for="tipocname">Tipo CNAME:</label>
+        <input type="text" id="tipocname" name="tipocname" ><br><br>
+
+        
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+    <script src="JS/app.js"></script>
+  </main>
+
+  <!-- Footer  -->
+    <footer>
+        <div id="seccion-footer" class="footer-content">
+          <div class="social-media">
+            <a href="https://www.facebook.com/pame.ua.3" target="_blank"><img src="IMG/facebook.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/merlynpame/" target="_blank"><img src="IMG/instagram.png" alt="Facebook"></a>
+            <a href="https://www.tiktok.com/login?redirect_url=https%3A%2F%2Fwww.tiktok.com%2Fupload%3Flang%3Des&lang=es" target="_blank"><img src="IMG/tiktok.png" alt="Facebook"></a>
+          </div>
+          <div class="contact-info">
+            <p style="color: beige;">Teléfono:0980094906 <a href="tel:123456789"></a></p>
+          </div>
+        </div>
+        <div class="copyright">
+          <p  style="color: beige;">&copy; 2023 Todos los Derechos Reservados | Ulcuango Merlyn</p>
+        </div>
+      </footer>
+</body>
+</html>

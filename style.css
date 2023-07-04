@@ -1,0 +1,160 @@
+/* Estilos CSS para dar formato a la página */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("IMG/fondo.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#logo_espe {
+  width: 100px;
+  height: 100px;
+  transition: transform 1s ease;
+}
+  
+#logo_espe:hover {
+  transform: rotateY(360deg);
+}
+
+h1,h2 {
+  color: #fff;
+}
+
+
+main {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+section {
+  background-color: rgba(242, 242, 242, 0.8);
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #F2DFFF;
+  border-radius: 20px;
+}
+
+section:not(:last-child) img {
+  max-width: 100%;
+}
+
+section p {
+  text-align: justify;
+  margin-top: 20px;
+}
+
+/*Formulario*/
+
+
+.seccion{
+  color: #000;
+}
+
+.titulo{
+  text-align: center;
+  font-weight: bold;
+}
+
+/*Edicion del boton*/
+button {
+    width: 20%;
+    height: 40px;
+    border-radius: 40px;
+    background: #BDA6C4;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+button:hover{
+    background-color: #37B3DD;
+}
+
+button:active{
+    color: black;
+    scale: 1;
+}
+
+/* footer */
+
+footer {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(51, 49, 50, 0.6);
+}
+  
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+  
+.social-media {
+  margin-bottom: 10px;
+}
+  
+  .social-media a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .social-media a:hover {
+    background-color: #f1f0f0;
+  }
+  
+  .contact-info p {
+    margin: 10px 0;
+  }
+  
+  .contact-info a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-media i {
+    vertical-align: middle;
+  }
+  
+  .social-media i.fab {
+    color: #fff;
+  }
+  
+  .contact-info a,
+  .contact-info a:hover {
+    color: #333;
+  }
+  
